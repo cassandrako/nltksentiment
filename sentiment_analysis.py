@@ -1,3 +1,5 @@
+#inspired by https://github.com/Jordan396/Twitter-Sentiment-Analysis
+
 import nltk
 from textblob import TextBlob
 
