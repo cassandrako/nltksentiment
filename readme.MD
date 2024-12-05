@@ -1,23 +1,10 @@
-This project performs sentiment analysis and part-of-speech (POS) tagging on text related to Teamfight Tactics (TFT). The script features dynamic text input, token categorization, keyword detection, and sentiment classification.
+# TFT Sentiment Analysis Poem
 
-Example Output:
+This project analyzes a poem written from the perspective of a *Teamfight Tactics (TFT)* player. The poem reflects the excitement, challenges, and camaraderie of playing a new set and participating in community events like *BoxBox's Bootcamp*. Due to the improvements to TFT as a game each set, the playerbase has immense amounts of passion and like to participate in competitions to support their favourite creators. The script evaluates the sentiment at both the sentence level and for the entire poem.
 
-Categorized Tokens:
-Nouns: ['Teamfight', 'Tactics', 'TFT', 'game', 'Riot', 'Games', 'League', 'Legends', ...]
-Verbs: ['is', 'challenges', 'build', 'position', 'introduces', ...]
-Adjectives: ['strategic', 'unique', 'recent', 'new', ...]
-Others: ['(', ')', '.', ',', ...]
+## Features
 
-Keyword Analysis:
-Keyword 'Dragons' detected in text!
-Keyword 'TFT' detected in text!
-Keyword 'Innovators' detected in text!
+1. A poem capturing the emotions of a TFT player during a new set launch-- especially as someone whose favourite game is TFT and has been playing since set 4.
+2. Analyzes polarity and subjectivity of each stanza.
+3. Evaluates the sentiment of the poem as a whole.
 
-Sentiment Analysis Results:
-Polarity: 0.3125 (Positive)
-Subjectivity: 0.5625
-
-Reflection:
-This analysis highlights keywords related to TFT and categorizes tokens by their grammatical roles.
-Sentiment analysis also classifies the overall tone of the text as Positive, Neutral, or Negative.
-Using TextBlob simplifies sentiment analysis, while NLTK provides detailed token and POS information.
